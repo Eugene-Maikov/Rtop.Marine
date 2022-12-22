@@ -1,0 +1,207 @@
+.header {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 3px 16px rgba(220, 227, 237, 0.33);
+  box-shadow: 0px 3px 16px rgba(220, 227, 237, 0.33);
+}
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 11px 0 28px 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+@media (max-width: 1330px) {
+  .header__top {
+    padding-bottom: 10px;
+  }
+}
+.header__logo {
+  outline: none;
+  display: block;
+}
+.header__phone a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #9DAABE;
+}
+.header__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 42px;
+  margin-bottom: 20px;
+}
+.header__left, .header__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.header__right {
+  margin-right: -5px;
+}
+.header__search {
+  position: relative;
+  height: 42px;
+}
+.header__search input {
+  border: 1px solid #9DAABE;
+  border-radius: 4px;
+  width: 383px;
+  height: 38px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #292929;
+  padding-left: 18px;
+  outline: none;
+}
+@media (max-width: 1330px) {
+  .header__search input {
+    display: none;
+  }
+}
+.header__search input::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #9DAABE;
+}
+.header__search input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #9DAABE;
+}
+.header__search input:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #9DAABE;
+}
+.header__search input::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #9DAABE;
+}
+.header__search input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #9DAABE;
+}
+.header__search input:after {
+  content: "";
+  background-image: url("../assets/svg/icon-search.svg");
+  position: absolute;
+  width: 26px;
+  height: 26px;
+}
+.header__search .btn__search {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 5px 22px 5px 5px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.nav__burger {
+  background-color: #E30613;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 124px;
+  height: 42px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+.nav__burger span {
+  position: relative;
+  content: "";
+  display: block;
+  background-color: #fff;
+  width: 18px;
+  height: 2px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+.nav__burger span:before, .nav__burger span:after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  width: 18px;
+  height: 2px;
+  border-radius: 4px;
+}
+.nav__burger span:before {
+  bottom: 5px;
+}
+.nav__burger span:after {
+  top: 5px;
+}
+.nav__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.nav__inner li {
+  margin-left: 36px;
+}
+@media (max-width: 1330px) {
+  .nav__inner {
+    display: none;
+  }
+}
+.nav__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #292929;
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,38 @@
+.section-selling{
+  margin-top: 79px;
+  margin-bottom: 50px;
+}
+
+.selling {
+
+
+  &__inner {
+    display: flex;
+    background-color: #F8FBFF;
+    border: 1px solid #DCE3ED;
+    border-radius: 14px;
+
+  }
+
+  &__content{
+    margin: 0 35px 0 38px;
+  }
+  &__title{
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #292929;
+    margin: 84px 0 18px 0;
+  }
+  &__subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #292929;
+    margin-bottom: 55px;
+  }
+  &__button{
+    margin-bottom: 73px;
+  }
+}

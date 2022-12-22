@@ -1,0 +1,54 @@
+.logo {
+  width: 167px;
+  height: 31px;
+}
+@media (max-width: 1270px) {
+  .logo {
+    width: 150px;
+  }
+}
+
+.icon-favourites,
+.icon-basket {
+  margin-left: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  outline: none;
+}
+@media (max-width: 1270px) {
+  .icon-favourites,
+.icon-basket {
+    margin-left: 0;
+  }
+}
+
+.favourites,
+.basket {
+  width: 32px;
+  height: 32px;
+  fill: #000;
+  padding: 5px;
+}
+
+.search {
+  width: 26px;
+  height: 26px;
+  fill: #9DAABE;
+}
+
+.vk {
+  width: 30px;
+  height: 18px;
+  fill: #9DAABE;
+}
+
+.dzen {
+  width: 28px;
+  height: 28px;
+  fill: #9DAABE;
+}
+/*# sourceMappingURL=sprite.css.map */

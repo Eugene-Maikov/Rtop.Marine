@@ -461,12 +461,6 @@ main {
 @media (max-width: 1023px) {
   .single-title {
     font-size: 23px;
-    margin-bottom: 14px;
-  }
-}
-@media (max-width: 767px) {
-  .single-title {
-    margin-bottom: 12px;
   }
 }
 /*# sourceMappingURL=global.css.map */

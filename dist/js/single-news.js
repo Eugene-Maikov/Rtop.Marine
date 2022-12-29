@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
     slidesPerView: 1,
     loop: true,
     navigation: {
-      nextEl: ".pictures__button-next",
-      prevEl: ".pictures__button-prev"
+      nextEl: ".pictures__next",
+      prevEl: ".pictures__prev"
     },
     pagination: {
       el: '.pictures__pagination'
@@ -20,6 +20,22 @@ document.addEventListener("DOMContentLoaded", function () {
     navigation: {
       nextEl: ".reference__button-next",
       prevEl: ".reference__button-prev"
+    },
+    breakpoints: {
+      1330: {
+        slidesPerView: 4
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 18
+      },
+      767: {
+        slidesPerView: 2,
+        spaceBetween: 16
+      },
+      320: {
+        slidesPerView: 1
+      }
     }
   });
 });

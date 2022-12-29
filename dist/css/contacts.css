@@ -15,25 +15,6 @@
     margin-bottom: 50px;
   }
 }
-.contacts-title {
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 100%;
-  color: #292929;
-  margin-bottom: 40px;
-}
-@media (max-width: 1023px) {
-  .contacts-title {
-    font-size: 30px;
-    margin-bottom: 22px;
-  }
-}
-@media (max-width: 767px) {
-  .contacts-title {
-    font-size: 25px;
-    margin-bottom: 30px;
-  }
-}
 .contacts__inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -428,6 +409,12 @@
   padding: 18px 75px;
   border: none;
   height: 50px;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.questions .form__button button:hover {
+  background-color: #8DA9D4;
 }
 @media (max-width: 1023px) {
   .questions .form__button button {

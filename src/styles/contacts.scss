@@ -12,22 +12,7 @@
     margin-bottom: 50px;
   }
 
-  &-title {
-    font-weight: 500;
-    font-size: 35px;
-    line-height: 100%;
-    color: #292929;
-    margin-bottom: 40px;
 
-    @media(max-width: 1023px) {
-      font-size: 30px;
-      margin-bottom: 22px;
-    }
-    @media(max-width: 767px) {
-      font-size: 25px;
-      margin-bottom: 30px;
-    }
-  }
 
   &__inner {
     display: flex;
@@ -374,6 +359,11 @@
         padding: 18px 75px;
         border: none;
         height: 50px;
+        transition: all .2s linear;
+
+        &:hover{
+          background-color: #8DA9D4;
+        }
 
         @media(max-width: 1023px) {
           padding: 18px 58px;

@@ -20,11 +20,16 @@ var inputName = document.querySelector('#questions-name');
 var inputPhone = document.querySelector('#questions-phone');
 var spanErrorName = document.querySelector('.form__error-name');
 var spanErrorPhone = document.querySelector('.form__error-phone');
+var inputCheckbox = document.querySelector('#privacy');
+var labelCheckbox = document.querySelector('.span__checkbox');
 form.addEventListener("submit", function (e) {
-  if (inputPhone.value === "" && inputName.value === "") {
+  e.preventDefault();
+
+  if (inputPhone.value === "" || inputName.value === "" || !inputCheckbox.checked) {
     e.preventDefault();
     inputName.classList.add("not-filled");
     inputPhone.classList.add("not-filled");
+    labelCheckbox.classList.add('span__checkbox--error');
     spanErrorName.innerText = "необходимо заполнить поле";
     spanErrorPhone.innerText = "необходимо заполнить поле";
   } else if (inputPhone.value === "") {
@@ -42,18 +47,9 @@ form.addEventListener("submit", function (e) {
   } else {
     inputName.classList.remove("not-filled");
     inputPhone.classList.remove("not-filled");
+    labelCheckbox.classList.remove('span__checkbox--error');
     spanErrorName.innerText = "";
     spanErrorPhone.innerText = "";
-  }
-});
-form.addEventListener('submit', function (event) {
-  event.preventDefault();
-  var inputCheckbox = document.querySelector('#privacy');
-  var labelCheckbox = document.querySelector('.span__checkbox');
-
-  if (!inputCheckbox.checked) {
-    labelCheckbox.classList.add('span__checkbox--error');
-  } else {
     form.submit();
   }
 });

@@ -45,10 +45,37 @@
   height: 18px;
   fill: #9DAABE;
 }
+.vk:hover {
+  fill: #8DA9D4;
+}
 
 .dzen {
   width: 28px;
   height: 28px;
   fill: #9DAABE;
+}
+.dzen:hover {
+  fill: #8DA9D4;
+}
+
+.pagination-prev,
+.pagination-next {
+  width: 42px;
+  height: 21px;
+  fill: #DCE3ED;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.pagination-prev:hover,
+.pagination-next:hover {
+  fill: #9DAABE;
+}
+
+.pictures-prev,
+.pictures-next {
+  width: 18px;
+  height: 31px;
+  fill: #DCE3ED;
 }
 /*# sourceMappingURL=sprite.css.map */

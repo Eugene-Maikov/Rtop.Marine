@@ -1,45 +1,79 @@
-.logo{
-    width: 167px;
-    height: 31px;
+.logo {
+  width: 167px;
+  height: 31px;
 
-    @media(max-width: 1270px) {
-        width: 150px;
-    }
+  @media(max-width: 1270px) {
+    width: 150px;
+  }
 }
 
 .icon-favourites,
-.icon-basket{
-    margin-left: 35px;
-    display: flex;
-    align-items: center;
-    outline: none;
+.icon-basket {
+  margin-left: 35px;
+  display: flex;
+  align-items: center;
+  outline: none;
 
-    @media(max-width: 1270px) {
-        margin-left: 0;
-    }
+  @media(max-width: 1270px) {
+    margin-left: 0;
+  }
 }
+
 .favourites,
-.basket{
-    width: 32px;
-    height: 32px;
-    fill: #000;
-    padding: 5px;
-}
-.search{
-    width: 26px;
-    height: 26px;
-    fill: #9DAABE;
+.basket {
+  width: 32px;
+  height: 32px;
+  fill: #000;
+  padding: 5px;
 }
 
-.vk{
-    width: 30px;
-    height: 18px;
-    fill: #9DAABE;
+.search {
+  width: 26px;
+  height: 26px;
+  fill: #9DAABE;
 }
-.dzen{
-    width: 28px;
-    height: 28px;
+
+.vk {
+  width: 30px;
+  height: 18px;
+  fill: #9DAABE;
+
+  &:hover {
+    fill: #8DA9D4;
+  }
+}
+
+.dzen {
+  width: 28px;
+  height: 28px;
+  fill: #9DAABE;
+
+  &:hover {
+    fill: #8DA9D4;
+  }
+}
+
+//Slider Arrows
+
+//Main pagination
+.pagination-prev,
+.pagination-next {
+  width: 42px;
+  height: 21px;
+  fill: #DCE3ED;
+  transition: all .2s linear;
+
+  &:hover {
     fill: #9DAABE;
+  }
+}
+
+// Slider pictures
+.pictures-prev,
+.pictures-next {
+  width: 18px;
+  height: 31px;
+  fill: #DCE3ED;
 }
 
 //.main-slider-prev-arrow{

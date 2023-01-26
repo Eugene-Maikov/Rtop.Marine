@@ -1,3 +1,4 @@
+//---------------------------- Header -------------------------------
 .logo {
   width: 167px;
   height: 31px;
@@ -32,6 +33,8 @@
   height: 26px;
   fill: #9DAABE;
 }
+//---------------------------- end Header -------------------------------
+//---------------------------- Contacts -------------------------------
 
 .vk {
   width: 30px;
@@ -52,10 +55,8 @@
     fill: #8DA9D4;
   }
 }
-
-//Slider Arrows
-
-//Main pagination
+//---------------------------- end Contacts -------------------------------
+//---------------------------- Pagination -------------------------------
 .pagination-prev,
 .pagination-next {
   width: 42px;
@@ -67,8 +68,10 @@
     fill: #9DAABE;
   }
 }
+//---------------------------- end Pagination -------------------------------
+//---------------------------- Slider pictures -------------------------------
+//in single-news
 
-// Slider pictures
 .pictures-prev,
 .pictures-next {
   width: 18px;
@@ -79,25 +82,41 @@
     display: none;
   }
 }
+//---------------------------- end Slider pictures -------------------------------
+//---------------------------- Single-stocks share -------------------------------
+.vk__min{
+  width: 20px;
+  height: 12px;
+  fill: #9DAABE;
+  transition: all .2s linear;
 
-//.main-slider-prev-arrow{
-//    width: 15px;
-//    height: 27px;
-//    fill: #DCE3ED;
-//}
-//.main-slider-next-arrow{
-//    width: 15px;
-//    height: 27px;
-//    fill: #DCE3ED;
-//}
-//.main-slider-prev{
-//    width: 47px;
-//    height: 24px;
-//    fill: #DCE3ED;
-//}
-//.main-slider-next{
-//    width: 47px;
-//    height: 24px;
-//    fill: #DCE3ED;
-//}
+  &:hover {
+    fill: #8DA9D4;
+  }
+}
+.icon-ok{
+  width: 11px;
+  height: 18px;
+  fill: #9DAABE;
+  transition: all .2s linear;
+
+  &:hover {
+    fill: #8DA9D4;
+  }
+}
+.icon-tg{
+  width: 17px;
+  height: 15px;
+  fill: #9DAABE;
+  transition: all .2s linear;
+
+  &:hover {
+    fill: #8DA9D4;
+  }
+
+}
+
+
+//---------------------------- end Single-stocks share -------------------------------
+
 

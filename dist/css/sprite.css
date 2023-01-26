@@ -84,4 +84,40 @@
     display: none;
   }
 }
+
+.vk__min {
+  width: 20px;
+  height: 12px;
+  fill: #9DAABE;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.vk__min:hover {
+  fill: #8DA9D4;
+}
+
+.icon-ok {
+  width: 11px;
+  height: 18px;
+  fill: #9DAABE;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.icon-ok:hover {
+  fill: #8DA9D4;
+}
+
+.icon-tg {
+  width: 17px;
+  height: 15px;
+  fill: #9DAABE;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.icon-tg:hover {
+  fill: #8DA9D4;
+}
 /*# sourceMappingURL=sprite.css.map */

@@ -74,6 +74,10 @@
   width: 18px;
   height: 31px;
   fill: #DCE3ED;
+
+  @media(max-width: 1024px){
+    display: none;
+  }
 }
 
 //.main-slider-prev-arrow{

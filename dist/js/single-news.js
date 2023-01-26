@@ -10,7 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
       prevEl: ".pictures__prev"
     },
     pagination: {
-      el: '.pictures__pagination'
+      el: '.pictures__pagination',
+      clickable: true
     }
   });
   var sliderReference = new Swiper(".reference", {
@@ -30,11 +31,11 @@ document.addEventListener("DOMContentLoaded", function () {
         spaceBetween: 18
       },
       767: {
-        slidesPerView: 2,
+        slidesPerView: 2.5,
         spaceBetween: 16
       },
       320: {
-        slidesPerView: 1
+        slidesPerView: 1.5
       }
     }
   });

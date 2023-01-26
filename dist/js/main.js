@@ -1,6 +1,12 @@
 "use strict";
 
-// phone mask
+// Максимальное кол-во строк
+var newsTitle = document.querySelectorAll('.news__title');
+var newsText = document.querySelector('.news__text');
+newsTitle.forEach(function (item) {
+  console.log(item.offsetHeight);
+}); // phone mask
+
 var mask = function mask(input) {
   var matrix = "+7 (___) ___-__-__",
       i = 0,

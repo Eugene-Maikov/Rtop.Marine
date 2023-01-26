@@ -1,3 +1,21 @@
+// Максимальное кол-во строк
+
+
+const newsTitle = document.querySelectorAll('.news__title');
+const newsText = document.querySelector('.news__text');
+
+newsTitle.forEach(item => {
+  console.log(item.offsetHeight)
+})
+
+
+
+
+
+
+
+
+
 // phone mask
 const mask = (input) => {
   let matrix = "+7 (___) ___-__-__",
@@ -60,5 +78,4 @@ form.addEventListener("submit", (e) => {
     form.submit()
   }
 });
-
 
